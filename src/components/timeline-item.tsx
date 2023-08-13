@@ -31,7 +31,7 @@ const TimelineItem: React.FC<TimelineItemProps> = ({
                className={`mx-auto flex items-center justify-center ${widthStyle} rounded-full bg-gray-100 p-1 dark:bg-gray-600`}
             >
                {typeof rest.image !== "string" ? (
-                  <rest.image className="text-6xl" />
+                  <rest.image size={50} />
                ) : (
                   <Image
                      src={rest.image}

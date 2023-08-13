@@ -5,7 +5,7 @@ import { Fade, Slide } from "react-awesome-reveal";
 import ScrollDown from "~/components/scroll-down";
 import { SplitText } from "~/components/split-text";
 
-const Header: React.FC<{ showSpain: boolean }> = ({ showSpain }) => {
+const Header: React.FC = () => {
    const [secondVisible, setSecondVisible] = useState<boolean>(false);
 
    useEffect(() => {
@@ -18,7 +18,7 @@ const Header: React.FC<{ showSpain: boolean }> = ({ showSpain }) => {
       <div className="flex items-center text-center">
          <div>
             <div className="relative">
-               {showSpain && (
+               {false && (
                   <Slide direction="right" triggerOnce delay={300}>
                      <span className="absolute -right-6 -top-4 text-3xl">
                         🇪🇸

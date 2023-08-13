@@ -5,11 +5,13 @@ import { items } from "~/data/timeline";
 import TimelineItem from "~/components/timeline-item";
 import Header from "./_client/header";
 
+export const runtime = "edge";
+
 const Page = () => {
    return (
       <>
          <div className="flex min-h-screen flex-grow items-center justify-center px-4 text-center">
-            <Header showSpain={false} />
+            <Header />
          </div>
          <div className="flex w-full justify-center border-t-2 border-gray-300 pb-12 dark:border-gray-700">
             <div>
