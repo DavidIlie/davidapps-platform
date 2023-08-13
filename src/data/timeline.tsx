@@ -1,8 +1,7 @@
 import Image from "next/image";
+
 import { ExternalLink } from "~/components/external-link";
-
 import { TimelineItemProps } from "~/components/timeline-item";
-
 import {
    HoverCard,
    HoverCardContent,

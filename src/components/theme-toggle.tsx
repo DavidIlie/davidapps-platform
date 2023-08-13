@@ -11,7 +11,7 @@ const ThemeToggle = (): JSX.Element => {
    };
 
    return (
-      <div className="fixed top-8 right-12 z-10">
+      <div className="fixed right-12 top-8 z-10">
          <DarkModeSwitch
             checked={resolvedTheme === "dark"}
             onChange={updateTheme}

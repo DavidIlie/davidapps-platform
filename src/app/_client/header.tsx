@@ -2,6 +2,7 @@
 
 import React, { useEffect, useState } from "react";
 import { Fade, Slide } from "react-awesome-reveal";
+
 import ScrollDown from "~/components/scroll-down";
 import { SplitText } from "~/components/split-text";
 

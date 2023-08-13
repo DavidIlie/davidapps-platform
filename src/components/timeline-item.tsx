@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+
 import { GitHub, Icon, Link } from "./ui/icons";
 
 export type TimelineItemProps = {

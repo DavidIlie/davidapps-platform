@@ -1,11 +1,11 @@
-import Link from "next/link";
 import React from "react";
+import Link from "next/link";
 
 import { Socials } from "./socials";
 
 export const Footer: React.FC = () => {
    return (
-      <footer className="w-full bg-slate-200 bg-opacity-40 pt-5 pb-5 text-black dark:bg-slate-800 dark:bg-opacity-50 dark:text-white">
+      <footer className="w-full bg-slate-200 bg-opacity-40 pb-5 pt-5 text-black dark:bg-slate-800 dark:bg-opacity-50 dark:text-white">
          <div className="mx-12 flex flex-wrap items-center justify-center sm:justify-evenly">
             <div className="mb-2 flex items-center gap-2 sm:mb-0">
                <Link
