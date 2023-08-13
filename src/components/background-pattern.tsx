@@ -16,7 +16,7 @@ export const BackgroundPattern: React.FC<{
    );
 };
 
-const Patterns: React.FC = React.memo(() => (
+const Patterns = React.memo(() => (
    <>
       <UpDown type="normal">
          <SVG icon="triangle" width={48} stroke left="10%" top="20%" />
