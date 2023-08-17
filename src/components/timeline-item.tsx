@@ -67,7 +67,7 @@ const TimelineItem: React.FC<TimelineItemProps> = ({
                   </a>
                )}
             </div>
-            <div className="text-gray-900 dark:text-gray-200">
+            <div className="text-gray-900 dark:text-gray-200 text-justify">
                {description}
             </div>
          </div>

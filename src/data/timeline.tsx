@@ -222,11 +222,9 @@ export const items: TimelineItemProps[] = [
             <br />
             <p>
                At my house in Spain, I have Home Assistant running on a
-               Raspberry Pi 3 connected to an iKEA gateway and other devices to
-               manage lights, outlets, TVs, etc. The way I connect to it is by
-               running a VPN server on my HP Microserver Gen 8 and then having a
-               VM connect to it and forward it to my kubernetes cluster so I can
-               access it from the internet and use external services.
+               Raspberry Pi 4 equipped with a ZigBee Gateway and other devices to
+               manage lights, outlets, TVs, etc. It runs a lot of services including 
+               a cloudflare tunnel to allow me to access it from outside my house
             </p>
          </>
       ),
