@@ -5,8 +5,6 @@ import { items } from "~/data/timeline";
 import TimelineItem from "~/components/timeline-item";
 import Header from "./_client/header";
 
-export const runtime = "edge";
-
 const Page = () => {
    return (
       <>
