@@ -7,7 +7,7 @@ import TimelineItem from "~/components/timeline-item";
 import Header from "./_client/header";
 
 const Page = () => {
-   return redirect("https://youtube.com/@davidilie");
+   return redirect("https://davidilie.com");
    
    return (
       <>
