@@ -11,8 +11,8 @@ import ThemeToggle from "~/components/theme-toggle";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-   title: "David Ilie Apps Platform",
-   description: "David Ilie Apps Platform",
+   title: "David Ilie Redirect",
+   description: "David Ilie Redirect",
 };
 
 export default function RootLayout({
@@ -23,14 +23,22 @@ export default function RootLayout({
    return (
       <html lang="en" suppressHydrationWarning>
          <body className={inter.className}>
-            <ThemeProvider>
-               <ThemeToggle />
-               <BackgroundPattern>
-                  {children}
-                  <Footer />
-               </BackgroundPattern>
-            </ThemeProvider>
+            {children}
          </body>
       </html>
    );
+   
+   // return (
+   //    <html lang="en" suppressHydrationWarning>
+   //       <body className={inter.className}>
+   //          <ThemeProvider>
+   //             <ThemeToggle />
+   //             <BackgroundPattern>
+   //                {children}
+   //                <Footer />
+   //             </BackgroundPattern>
+   //          </ThemeProvider>
+   //       </body>
+   //    </html>
+   // );
 }
