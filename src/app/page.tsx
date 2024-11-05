@@ -1,4 +1,5 @@
 import React from "react";
+import { redirect } from "next/navigation";
 
 import { items } from "~/data/timeline";
 
@@ -6,6 +7,8 @@ import TimelineItem from "~/components/timeline-item";
 import Header from "./_client/header";
 
 const Page = () => {
+   return redirect("https://youtube.com/@davidilie");
+   
    return (
       <>
          <div className="flex min-h-screen flex-grow items-center justify-center px-4 text-center">
